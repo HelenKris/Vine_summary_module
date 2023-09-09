@@ -1,0 +1,22 @@
+original_data_path: './data/train/wine_reviews.csv'
+prepared_data_path: './data/prepared_data/prepared_data.csv'
+# tensors_dir = Path("./my_module/tensors/")
+tensors_path: './my_module/tensors/summary_tensors.pkl'
+# summaries_dir = Path("./my_module/summaries/")
+new_data_path: './data/new_data/new_data.csv'
+summaries_path: './my_module/summaries/summaries.csv'
+
+
+model: 'facebook/bart-large-cnn'
+min_length: 15
+max_length: 35
+
+batch_size: 10
+# network:
+#   arch: psevdoresnet
+
+#   in_nc: 3
+#   base_nc: 32
+#   out_nc: 2
+
+#   block_type: classic
