@@ -1,6 +1,6 @@
 # Search_by_summary
 
-This is a claim for an application to search for the type of wine you need by summary of description.
+This is work on developing a recommendation system to find a suitable wine by input summary of description.
 For getting summaries and tensors of token indices here I used summarizing pipeline with model ’bart-large-cnn’.
 Then using the cosine distance between the tensors I build a recommendation system for choosing the right wine according to the description entered.
 
